@@ -1,7 +1,7 @@
 """
 Lambda: YouTube Data API Ingestion (Bronze Layer)
 ──────────────────────────────────────────────────
-Triggered by EventBridge on a schedule (e.g., every 6 hours).
+Triggered by EventBridge on a schedule (e.g., every 1 day).
 Pulls trending videos from the YouTube Data API for each configured region
 and writes raw JSON responses to the Bronze S3 bucket.
 
